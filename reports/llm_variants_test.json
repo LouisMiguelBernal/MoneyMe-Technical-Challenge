@@ -1,0 +1,84 @@
+{
+  "n": 1035,
+  "note": "test-set history of the LLM; each variant was chosen on train validation before its test run; v2 separates unsolicited loan offers from updates on the customer's own application",
+  "generic_fixed_8": {
+    "precision": 0.7960526315789473,
+    "recall": 0.9236641221374046,
+    "f1": 0.8551236749116607,
+    "accuracy": 0.9603864734299516,
+    "ham_blocked_rate": 0.034292035398230086,
+    "tp": 121,
+    "fp": 31,
+    "fn": 10,
+    "tn": 873,
+    "latency_ms": {
+      "p50": 222.48830000899034,
+      "p95": 250.49286000139546
+    }
+  },
+  "generic_retrieved_8": {
+    "precision": 0.825503355704698,
+    "recall": 0.9389312977099237,
+    "f1": 0.8785714285714286,
+    "accuracy": 0.9671497584541063,
+    "ham_blocked_rate": 0.028761061946902654,
+    "tp": 123,
+    "fp": 26,
+    "fn": 8,
+    "tn": 878,
+    "latency_ms": {
+      "p50": 365.4974500004755,
+      "p95": 592.2740749985678
+    }
+  },
+  "mcnemar_fixed_vs_retrieved": {
+    "only_first_correct": 18,
+    "only_second_correct": 25,
+    "p_value": 0.3603776529357674
+  },
+  "mcnemar_generic_vs_policy_retrieved": {
+    "only_first_correct": 3,
+    "only_second_correct": 21,
+    "p_value": 0.0002771615982055664
+  },
+  "lender_policy_v1_retrieved_8": {
+    "precision": 0.9389312977099237,
+    "recall": 0.9389312977099237,
+    "f1": 0.9389312977099237,
+    "accuracy": 0.9845410628019323,
+    "ham_blocked_rate": 0.008849557522123894,
+    "tp": 123,
+    "fp": 8,
+    "fn": 8,
+    "tn": 896,
+    "latency_ms": {
+      "p50": 389.62939999873925,
+      "p95": 630.5258900011719
+    }
+  },
+  "lender_policy_v2_retrieved_8": {
+    "precision": 0.9606299212598425,
+    "recall": 0.9312977099236641,
+    "f1": 0.9457364341085271,
+    "accuracy": 0.9864734299516909,
+    "ham_blocked_rate": 0.0055309734513274336,
+    "tp": 122,
+    "fp": 5,
+    "fn": 9,
+    "tn": 899,
+    "latency_ms": {
+      "p50": 329.3051500004367,
+      "p95": 491.4664999992054
+    }
+  },
+  "mcnemar_policy_v1_vs_v2": {
+    "only_first_correct": 2,
+    "only_second_correct": 4,
+    "p_value": 0.6875
+  },
+  "mcnemar_generic_retrieved_vs_policy_v2": {
+    "only_first_correct": 2,
+    "only_second_correct": 22,
+    "p_value": 3.5881996154785156e-05
+  }
+}

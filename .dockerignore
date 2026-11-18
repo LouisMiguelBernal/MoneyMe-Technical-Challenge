@@ -1,0 +1,5 @@
+*
+!requirements.txt
+!spamclf
+!models
+**/__pycache__

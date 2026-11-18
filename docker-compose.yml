@@ -1,0 +1,42 @@
+services:
+  api:
+    build: .
+    ports:
+      - "${API_PORT:-8000}:8000"
+    environment:
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://ollama:11434}
+      LLM_MODEL: ${LLM_MODEL:-gemma4:e4b}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-120}
+    volumes:
+      - logs:/app/logs
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  ollama:
+    image: ollama/ollama:${OLLAMA_TAG:-0.40.16}
+    environment:
+      OLLAMA_KEEP_ALIVE: "-1"  # never unload
+    volumes:
+      - ollama:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      retries: 12
+
+  # pulls the model once, then exits
+  ollama-pull:
+    image: ollama/ollama:${OLLAMA_TAG:-0.40.16}
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: ["ollama", "pull", "${LLM_MODEL:-gemma4:e4b}"]
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: on-failure
+
+volumes:
+  ollama:
+  logs:

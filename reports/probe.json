@@ -1,0 +1,29 @@
+{
+  "ml": {
+    "overall": 0.68,
+    "injection": 1.0,
+    "legit_transactional": 0.3,
+    "lender_notice": 0.4,
+    "loan_scam": 0.8,
+    "modern_phishing": 0.9,
+    "personal": 1.0
+  },
+  "llm": {
+    "overall": 0.98,
+    "injection": 1.0,
+    "legit_transactional": 1.0,
+    "lender_notice": 1.0,
+    "loan_scam": 1.0,
+    "modern_phishing": 0.9,
+    "personal": 1.0
+  },
+  "n": 50,
+  "counts": {
+    "modern_phishing": 10,
+    "legit_transactional": 10,
+    "lender_notice": 10,
+    "loan_scam": 10,
+    "personal": 5,
+    "injection": 5
+  }
+}

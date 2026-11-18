@@ -1,0 +1,22 @@
+label,text,ml_score,ml_pred,llm_pred
+ham,Are you free now?can i call now?,-0.26299595243640905,spam,ham
+ham,So there's a ring that comes with the guys costumes. It's there so they can gift their future yowifes. Hint hint,-0.6709855530208341,ham,spam
+ham,"&lt;#&gt; %of pple marry with their lovers... becz they hav gud undrstndng dat avoids problems. i sent dis 2 u, u wil get gud news on friday by d person you like. And tomorrow will be the best day of your life. Dont break this chain. If you break you will suffer. send this to  &lt;#&gt;  frnds in &lt;#&gt;  mins whn u read...",-1.158865384677786,ham,spam
+spam,"Hi ya babe x u 4goten bout me?' scammers getting smart..Though this is a regular vodafone no, if you respond you get further prem rate msg/subscription. Other nos used also. Beware!",-0.7967355123564621,ham,spam
+ham,Dont you have message offer,-0.011843048138300949,spam,spam
+ham,Cheers for the message Zogtorius. Ive been staring at my phone for an age deciding whether to text or not.,-0.14765733673083103,spam,ham
+spam,Guess who am I?This is the first time I created a web page WWW.ASJESUS.COM read all I wrote. I'm waiting for your opinions. I want to be your friend 1/1,-0.23042263575306487,spam,ham
+spam,"Hello darling how are you today? I would love to have a chat, why dont you tell me what you look like and what you are in to sexy?",-1.0593411725016282,ham,spam
+spam,RCT' THNQ Adrian for U text. Rgds Vatian,0.09973863817241746,spam,ham
+ham,"Please protect yourself from e-threats. SIB never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody.",-0.14508585087343617,spam,ham
+spam,"Oh my god! I've found your number again! I'm so glad, text me back xafter this msgs cst std ntwk chg £1.50",-0.6443237220870566,ham,ham
+spam,"In The Simpsons Movie released in July 2007 name the band that died at the start of the film? A-Green Day, B-Blue Day, C-Red Day. (Send A, B or C)",-0.6588021046989924,ham,ham
+spam,Missed call alert. These numbers called but left no message. 07008009200,0.04458157142420527,spam,ham
+spam,"accordingly. I repeat, just text the word ok on your mobile phone and send",0.12747962291934645,spam,ham
+spam,3. You have received your mobile content. Enjoy,0.7881121037824994,spam,ham
+ham,I liked the new mobile,0.0833867961202912,spam,ham
+ham,WE REGRET TO INFORM U THAT THE NHS HAS MADE A MISTAKE.U WERE NEVER ACTUALLY BORN.PLEASE REPORT 2 YOR LOCAL HOSPITAL 2B TERMINATED.WE R SORRY 4 THE INCONVENIENCE,-0.7716415794583549,ham,spam
+ham,Hey do you want anything to buy:),-1.2602147948896345,ham,spam
+ham,JADE ITS PAUL. Y DIDNT U TXT ME? DO U REMEMBER ME FROM BARMED? I WANT 2 TALK 2 U! TXT ME,-0.27650884605804027,spam,ham
+spam,"Latest News! Police station toilet stolen, cops have nothing to go on!",-0.4594654037940493,ham,ham
+spam,ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I O £250 3 WANT £800,-0.143491061805038,spam,ham

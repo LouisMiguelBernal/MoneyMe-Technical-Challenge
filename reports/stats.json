@@ -1,0 +1,30 @@
+{
+  "sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "rows": 5574,
+  "classes": {
+    "ham": 4827,
+    "spam": 747
+  },
+  "spam_share": 0.1340150699677072,
+  "exact_duplicates": 403,
+  "unique_rows": 5171,
+  "template_groups": 5099,
+  "length_by_class": {
+    "ham": {
+      "chars_mean": 71.5,
+      "chars_median": 52.0,
+      "chars_max": 910,
+      "words_mean": 14.3,
+      "words_median": 11.0,
+      "words_max": 171
+    },
+    "spam": {
+      "chars_mean": 138.7,
+      "chars_median": 149.0,
+      "chars_max": 223,
+      "words_mean": 23.9,
+      "words_median": 25.0,
+      "words_max": 35
+    }
+  }
+}
